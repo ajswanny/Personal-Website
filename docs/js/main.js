@@ -9,6 +9,6 @@ function getRandomColor() {
 
 function change_color() {
 
-    document.getElementById("header_one").style.color = "blue";
+    document.getElementById("header_one").style.color = getRandomColor();
 
 }
