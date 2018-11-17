@@ -9,6 +9,6 @@ function getRandomColor() {
 
 function change_color() {
 
-    document.getElementById("title").style.color = getRandomColor();
+    document.getElementById("title").style.color = "blue";
 
 }
