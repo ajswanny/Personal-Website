@@ -7,3 +7,8 @@ body {
 .standard_texts {
     color: black;
 }
+
+/* Ids */
+#main_menu {
+    display: inline;
+}
