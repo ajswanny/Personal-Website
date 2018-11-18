@@ -1,17 +1,41 @@
+<!--
+Created by Alexander Swanson on 11/18/18.
+Copyright (c) 2018, Alexander Joseph Swanson Villares
+alexjosephswanson@gmail.com
+-->
 <!DOCTYPE html>
 <html lang="en">
+
+
+<!-- The document metadata. -->
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
     <script src="js/main.js"></script>
     <title>Alexander Swanson</title>
 </head>
-<body>
-    <h1 id="my_name" class="standard_texts">Alexander Swanson</h1>
-    <ul id="main_menu">
-        <li id="li__about_me" class="standard_texts">About me</li>
-        <li id="li__projects" class="standard_texts">Projects</li>
-        <li id="li__contact" class="standard_texts">Contact</li>
-    </ul>
-</body>
+
+<!-- A wrapper for all visible elements of the page. -->
+<div class="wrapper">
+
+    <!-- The document header. -->
+    <header>
+        <h1 id="my_name" class="primary_text">Alexander Swanson</h1>
+        <nav class="main_menu">
+            <ul>
+                <li id="li__about_me" class="primary_text" onclick="switch_content('about_me')"><a>About me</a></li>
+                <li id="li__projects" class="primary_text" onclick="switch_content('projects')"><a>Projects</a></li>
+                <li id="li__contact" class="primary_text" onclick="switch_content('contact')"><a>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- The content of the page, variable with respect to the section selected in the main nav. -->
+    <div id="content">
+
+    </div>
+
+</div>
+
+
 </html>

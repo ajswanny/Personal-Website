@@ -1,15 +1,24 @@
 /* Elements */
-body {
-    background-color: white;
+iframe {
+    border: none;
 }
 
 /* Classes */
-.standard_texts {
+.wrapper {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.primary_text {
     color: black;
 }
 
-/* Ids */
-#main_menu li {
+.main_menu li {
     display: inline;
     float: left;
+    padding-right: 25px;
 }
+
+/* Ids */
