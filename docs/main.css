@@ -11,4 +11,5 @@ body {
 /* Ids */
 #main_menu li {
     display: inline;
+    float: left;
 }
