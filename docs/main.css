@@ -9,6 +9,6 @@ body {
 }
 
 /* Ids */
-#main_menu {
+#main_menu li {
     display: inline;
 }
