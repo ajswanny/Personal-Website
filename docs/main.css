@@ -1,24 +1,24 @@
 /* Elements */
 iframe {
     border: none;
+    width: 100%;
+    height: 100%;
 }
 
-/* Classes */
-.wrapper {
+body {
     background-color: white;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
 }
 
-.primary_text {
-    color: black;
-}
 
-.main_menu li {
+/* Classes */
+.main_menu_li {
     display: inline;
     float: left;
     padding-right: 25px;
 }
+
 
 /* Ids */

@@ -16,26 +16,33 @@ alexjosephswanson@gmail.com
 </head>
 
 <!-- A wrapper for all visible elements of the page. -->
-<div class="wrapper">
+<body>
 
     <!-- The document header. -->
-    <header>
-        <h1 id="my_name" class="primary_text">Alexander Swanson</h1>
-        <nav class="main_menu">
+    <div id="header">
+
+        <h1 id="my_name">Alexander Swanson</h1>
+
+        <nav id="main_menu">
             <ul>
-                <li id="li__about_me" class="primary_text" onclick="switch_content('about_me')"><a>About me</a></li>
-                <li id="li__projects" class="primary_text" onclick="switch_content('projects')"><a>Projects</a></li>
-                <li id="li__contact" class="primary_text" onclick="switch_content('contact')"><a>Contact</a></li>
+                <li id="li__about_me" class="main_menu_li"><a href="html/about_me.html">About me</a></li>
+                <li id="li__projects" class="main_menu_li"><a href="html/projects.html">Projects</a></li>
             </ul>
         </nav>
-    </header>
+
+    </div>
 
     <!-- The content of the page, variable with respect to the section selected in the main nav. -->
     <div id="content">
 
     </div>
 
-</div>
+    <!-- The document footer. -->
+    <div id="footer">
+
+    </div>
+
+</body>
 
 
 </html>
