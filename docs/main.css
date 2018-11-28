@@ -18,7 +18,7 @@ body {
 
 /* Ids */
 #footer {
-    position:absolute;
+    position:fixed;
     width:300px;
     height:300px;
     margin-left:-150px;
