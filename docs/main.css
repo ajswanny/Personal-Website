@@ -3,45 +3,65 @@ body {
 
     background-color: white;
 
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 
 }
 
-
-/* Classes */
-.main_menu_li {
-
-    display: inline;
-    float: left;
-    padding-right: 25px;
-    padding-left: 0;
+a {
 
     color: black;
     text-decoration: none;
 
 }
 
+a:hover {
 
-/* Ids */
-#footer {
-
-    position: absolute;
-    margin-left: -150px;
-    bottom: 0px;
-    left: 50%;
+    color: gray;
 
 }
 
+/* Classes */
+.main_menu_li {
+
+    display: inline;
+    padding-right: 25px;
+
+}
+
+
+/* Ids */
 #index_background_img {
 
     width: 300px;
     height: auto;
 
-    position: absolute;
+    position: fixed;
     margin-left: -150px;
     left: 50%;
-    bottom: 40%;
+    bottom: 45%;
 
 }
+
+#footer {
+
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+
+}
+
+#header {
+
+    display: table-cell;
+
+
+
+}
+
+#my_name, #main_menu {
+
+    display: inline-block;
+
+}
+
