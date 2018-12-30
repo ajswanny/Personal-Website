@@ -81,10 +81,11 @@ a:hover {
 
 #about_me_content {
 
-    padding-top: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* Center the content in the page. */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
