@@ -38,6 +38,13 @@ a:hover {
 
 }
 
+.content {
+
+    position: fixed;
+    bottom: 15px;
+
+}
+
 .header {
 
     display: table-cell;
