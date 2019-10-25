@@ -48,6 +48,11 @@ a:hover {
     padding-left: 20px;
 }
 
+.github_logo {
+    width: 10%;
+    height: 10%;
+}
+
 
 /* Ids */
 #index_background_img {
