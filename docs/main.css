@@ -51,9 +51,9 @@ a:hover {
     width: 80px;
     height: auto;
 
-    position: top | right;
-    /*left: 93.5%;
-    bottom: 90%;*/
+    position: fixed;
+    left: 93.5%;
+    bottom: 90%;
 
 }
 
